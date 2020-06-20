@@ -4,9 +4,9 @@ class AjuNiviScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("background", "assets/background.png");
-        this.load.image("aju", "assets/aju_new.png");
-        this.load.image("nivi", "assets/nivi_new.png");
+        this.load.image("background", "background.png");
+        this.load.image("aju", "aju_new.png");
+        this.load.image("nivi", "nivi_new.png");
     }
 
     create() {

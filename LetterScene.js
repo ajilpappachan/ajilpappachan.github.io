@@ -7,11 +7,11 @@ class LetterScene extends Phaser.Scene
 
     preload()
     {
-        this.load.image("background", "assets/background.png");
-        this.load.image("nivi", "assets/nivi_new.png");
-        this.load.image("letter", "assets/letter.png");
-        this.load.image("aju", "assets/aju_new.png");
-        this.load.image("letterContent", "assets/LetterContent.png");
+        this.load.image("background", "background.png");
+        this.load.image("nivi", "nivi_new.png");
+        this.load.image("letter", "letter.png");
+        this.load.image("aju", "aju_new.png");
+        this.load.image("letterContent", "LetterContent.png");
     }
 
     create()
