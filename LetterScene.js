@@ -26,6 +26,7 @@ class LetterScene extends Phaser.Scene
         });
 
         gameState.letter = this.add.sprite(100, 300, "letter");
+        gameState.letterPrompt = this.add.text(25, 200, "Drag yourself here", { font: "20pt Impact", stroke: "black", strokeThickness: 5 });
         gameState.nivi = this.add.sprite(700, 300, "nivi").setInteractive();
         gameState.aju = undefined;
 
@@ -46,6 +47,7 @@ class LetterScene extends Phaser.Scene
             this.add.sprite(500, 250, "letterContent");
             gameState.aju = this.add.sprite(710, 450, "aju");
             gameState.nivi.depth = 1;
+            gameState.letterPrompt.destroy();
         }
 
         if(gameState.aju !== undefined)
