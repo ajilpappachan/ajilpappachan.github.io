@@ -8,7 +8,7 @@ class BirthdayNiviScene extends Phaser.Scene {
         this.load.image("aju", "aju_new.png");
         this.load.image("nivi", "nivi_birthday.png");
         this.load.spritesheet( "balloon" , "Balloon.png", { frameWidth: 50, frameHeight: 100 });
-        this.load.spritesheet( "bearballoon" , "Balloon Bear.png", { frameWidth: 200, frameHeight: 200 });
+        this.load.spritesheet( "bearballoon" , "BalloonBear.png", { frameWidth: 200, frameHeight: 200 });
     }
 
     create() {
